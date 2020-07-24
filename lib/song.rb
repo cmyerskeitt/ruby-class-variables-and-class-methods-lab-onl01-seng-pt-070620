@@ -36,7 +36,7 @@ class Song
       else
         count[genre] = 1
       end
-      binding.pry
     end
   end 
+  
 end 
