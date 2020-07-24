@@ -32,6 +32,7 @@ class Song
     count={}
     @@genres.each do |genre|
       count[genre] ||= 1
+      binding.pry
     end
   end 
 end 
